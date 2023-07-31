@@ -62,7 +62,7 @@
 }
 
 #hd img{
-  width: 250px;
+  width: 200px;
 }
 
 .kakao-link{
@@ -156,6 +156,11 @@
 }
 
 #ft{
-  height: 220px;
+  height: 200px;
   background-color: #C6004D;
+  margin-top: 80px;
+}
+
+.bottomlogo{
+  width: 300px;
 }

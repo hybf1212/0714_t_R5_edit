@@ -3,11 +3,11 @@ import { Nav , Navbar} from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 
 const Header = () => {
-  const supportname = [
-    {link : "#", name : "지구본"},
-    {link : "#", name : "고객지원"},
-    {link : "#", name : "TEL - 00000000"}
-  ]
+  // const supportname = [
+  //   {link : "#", name : "지구본"},
+  //   {link : "#", name : "고객지원"},
+  //   {link : "#", name : "TEL - 00000000"}
+  // ]
   const gnbname = [
     {link : "#event", name : "이벤트"},
     {link : "#contents", name : "제품소개"},

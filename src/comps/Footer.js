@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
     return (
-    <section id="ft">
-        <div className="container d-flex justify-content">
+    <section id="ft" className="d-flex align-items-center">
+        <div className="container d-flex justify-content-between">
             <div>
-                <img src="./img/LG-logo-w.png" alt="하단로고" />
+                <a href=""><img src="./img/LG-logo-w.png" className="bottomlogo" alt="하단로고" /></a>
             </div>
-            <div></div>
+            <div><p>123</p></div>
         </div>
     </section>
     )
