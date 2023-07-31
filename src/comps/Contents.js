@@ -18,8 +18,8 @@ const Contents = () => {
                         <div>
                             <img src="./img/contentsimg/allinone.gif" alt="올인원타워" />
                         </div>
-                        <div className='con-comp d-flex justify-content-center align-items-center'>
-                            <div>
+                        <div className='con-comp d-flex align-items-center'>
+                            <div className='width-50'>
                                 <img src="./img/contentsimg/dust-uvc.gif" alt="먼지필터" />
                             </div>
                             <div className='con-comp-text'>
@@ -45,11 +45,11 @@ const Contents = () => {
                                 <h3>망설임 없는 주행</h3>
                                 <p>범퍼 센서, 라이다 눌림 센서,<br></br>낭떠러지 센서가 경로의 장애물을 인식하고<br></br>사이드 브러시가 구석구석 남김없이 청소하여<br></br>빠르고 완벽한 청소를 수행합니다.</p>
                             </div>
-                            <div className='col-5 mt-5'>
-                                <img src="./img/contentsimg/bumper-sensor1.png" alt="범퍼센서1" />
+                            <div className='col-5 mt-4'>
+                                <img src="./img/contentsimg/bumper-sensor1.jpg" alt="범퍼센서1" />
                             </div>
-                            <div className='col-5 mt-5'>
-                                <img src="./img/contentsimg/bumper-sensor2.png" alt="범퍼센서2" />
+                            <div className='col-5 mt-4'>
+                                <img src="./img/contentsimg/bumper-sensor2.jpg" alt="범퍼센서2" />
                             </div>
                         </div>
                     </div>
