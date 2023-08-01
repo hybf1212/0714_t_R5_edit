@@ -4,11 +4,10 @@ import Scrollspy from 'react-scrollspy';
 
 
 const Header = () => {
-  // const supportname = [
-  //   {link : "#", name : "지구본"},
-  //   {link : "#", name : "고객지원"},
-  //   {link : "#", name : "TEL - 00000000"}
-  // ]
+  const supportname = [
+    {link : "#", name : "bi bi-github"},
+    {link : "#", name : "bi bi-person-circle"}
+  ]
   const gnbname = [
     { link: "event", tname: "이벤트" },
     { link: "contents", tname: "제품소개" },
@@ -28,8 +27,8 @@ const Header = () => {
 
   return (
     <>
-      <Navbar expand="lg" id="hd" className="d-flex flex-wrap fixed-top py-0">
-        <div className="col-12 text-center border-bottom">Phone Number for Advertisement Page</div>
+      <Navbar expand="md" id="hd" className="d-flex flex-wrap fixed-top py-0">
+        {/* <div className="col-12 text-center border-bottom">Phone Number for Advertisement Page</div> */}
         <div className="container-lg">
           <h1 className="toplogo mb-0">
             <Navbar.Brand href="/" className="d-block">
@@ -54,13 +53,15 @@ const Header = () => {
               </Scrollspy>
             </Nav>
           </Navbar.Collapse>
-          <div>
-            <ul>
-              <li><a href=""><i class="bi bi-cart2"></i></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+          
+            <ul className='d-flex my-link'>
+            {supportname.map((v,i)=>(
+              <li key={`support${i}`} className='ms-4 mt-1'>
+                <a href={v.link}><i class={v.name}></i></a>
+            </li>
+            ))}
             </ul>
-          </div>
+            
         </div>
       </Navbar>
     </>

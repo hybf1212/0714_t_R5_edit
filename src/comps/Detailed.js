@@ -5,7 +5,8 @@ export default function Detailed() {
     <div className='bg-white'>
         <div id='detail-spec' className='container'>
             <div>
-                <img src="./img/contentsimg/detail-spec.png" alt="상세스펙" />
+                <img className='detail-spec-dt' src="./img/contentsimg/detail-spec.png" alt="상세스펙" />
+                <img className='detail-spec-mo' src="./img/contentsimg/detail-spec-mo.jpg" alt="모바일상세스펙" />
             </div>
             <div>
                 <h3>스펙 요약 정보</h3>

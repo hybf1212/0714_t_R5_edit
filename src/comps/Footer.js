@@ -7,7 +7,7 @@ const Footer = () => {
             <div>
                 <a href=""><img src="./img/LG-logo-w.png" className="bottomlogo" alt="하단로고" /></a>
             </div>
-            <div><p>123</p></div>
+            <div className="ft-tel"><p>Tel - 000000000000</p></div>
         </div>
     </section>
     )
